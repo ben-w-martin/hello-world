@@ -51,3 +51,7 @@ a:active,
 a:hover {
   color: greenyellow;
 }
+
+img {
+  max-width: 500px;
+}
