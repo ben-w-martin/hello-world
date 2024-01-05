@@ -1,0 +1,53 @@
+.container {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15;
+}
+
+.bg-dark {
+  color: white;
+  background-color: darkgray;
+}
+
+.bg-light {
+  color: black;
+  background-color: rgb(236, 236, 236);
+}
+
+.wd-25 {
+  width: 25%;
+  position: relative;
+  padding: 10px;
+}
+.wd-50 {
+  width: 50%;
+  position: relative;
+  padding: 10px;
+}
+.wd-75 {
+  width: 75%;
+  position: relative;
+  padding: 10px;
+}
+.wd-100 {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: dimgray;
+}
+
+a:active,
+a:hover {
+  color: greenyellow;
+}

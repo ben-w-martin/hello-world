@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  position: relative;
+  display: block;
+  padding: 10px;
+  background-color: lightcyan;
+  border: 1px solid black;
+  margin: 20px 50px;
+  color: purple;
+  transition: all 0.3s;
+}
+
+.item:hover {
+  background-color: aqua;
+}
+
+.warning-text {
+  color: orangered;
+}
+.success-text {
+  color: green;
+}
+.info-text {
+  color: steelblue;
+}
+
+.bold-text {
+  font-weight: bold;
+}
