@@ -1,30 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- #region Sabio Code - You can Fold this region to remove it from sight -->
     <meta charset="utf-8" />
-	<meta name="referrer" content="unsafe-url" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="referrer" content="unsafe-url" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta name="description" content="Sabio Coding Bootcamp" />
-    <meta itemprop="image" content="https://sabio.la/Sabio.png">
-    <link rel="shortcut icon" href="https://sabio.la/Sabio.png">
+    <meta itemprop="image" content="https://sabio.la/Sabio.png" />
+    <link rel="shortcut icon" href="https://sabio.la/Sabio.png" />
     <link rel="icon" type="image/png" href="https://sabio.la/Sabio.png" />
     <!-- Do Not Change the HTML title or anything between this line and the line with the 💘's -->
     <title>Comparison Operators - Foundations</title>
     <link href="https://pw.sabio.la/dist/all-site.css" rel="stylesheet" />
-    
+
     <script src="https://pw.sabio.la/api/js/site"></script>
     <!-- #endregion -->
     <!-- I 💘 Code, You 💘 Code, We all 💘 Code -->
-</head>
+  </head>
 
-<body class="sabio is-foundation" data-ins="" data-ui="full-height">
+  <body class="sabio is-foundation" data-ins="" data-ui="full-height">
     <!--👇🏻 All your JavaScript code goes below here inside this script tag 👇🏻 -->
     <script id="candidateCode">
+      var message = "This assigns a value";
+      var messageCopy = "I love code";
+      var cost = 99;
+      var moneyBanked = 1000;
+      var check = 100;
 
+      console.log({ cost });
+      console.log({ moneyBanked });
+
+      var newMoney = moneyBanked + check;
+      newMoney += check;
+      newMoney += check;
+      newMoney += check;
+      newMoney++;
+      ++newMoney;
+
+      console.log({ newMoney });
+
+      var sameMessage = message === messageCopy;
+
+      console.log(sameMessage);
+
+      message = messageCopy;
+
+      sameMessage = message === messageCopy;
+
+      console.log(sameMessage);
+
+      var coachCount = 5;
+      var playerCount = 10;
+      var teamCount = 10;
+      var drinkingAge = 21;
+      var myAge = 28;
+
+      var hasSamePeople = coachCount === playerCount;
+      var tooManyTeams = teamCount >= 5;
+      var isDrinkingAge = myAge >= drinkingAge;
+
+      console.log(hasSamePeople && drinkingAge);
+
+      console.log({ hasSamePeople });
+      console.log({ tooManyTeams });
+      console.log({ isDrinkingAge });
+
+      playerCount += "";
+
+      var isEqual = playerCount == teamCount;
+
+      console.log({ isEqual });
     </script>
     <!-- 🛑 Do Not Write Any Code Below here -->
-</body>
-
+  </body>
 </html>

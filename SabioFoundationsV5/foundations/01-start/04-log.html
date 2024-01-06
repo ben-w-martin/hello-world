@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="https://sabio.la/Sabio.png" />
     <link rel="icon" type="image/png" href="https://sabio.la/Sabio.png" />
     <!-- Do Not Change the HTML title or anything between this line and the line with the 💘's -->
-    <title>Spread Operator - Foundations</title>
+    <title>Variable Types - Foundations</title>
     <link href="https://pw.sabio.la/dist/all-site.css" rel="stylesheet" />
 
     <script src="https://pw.sabio.la/api/js/site"></script>
@@ -24,30 +24,34 @@
   <body class="sabio is-foundation" data-ins="" data-ui="full-height">
     <!--👇🏻 All your JavaScript code goes below here inside this script tag 👇🏻 -->
     <script id="candidateCode">
-      var address = {
-        street: "100 Main st",
-        id: "Ben's Address",
-        apt: "B",
-        zip: "12345",
-        state: "WI",
-        city: "Somewhere",
+      var message = "This is a string";
+      var age = 20;
+      var ageYear = 20.5;
+      var debt = -1000;
+
+      var isTeamMember = true;
+      var isSmoker = false;
+
+      var anObject = {
+        hello: "Hello",
+        goodbye: "Goodbye",
+        method: () => {
+          return "Hello method";
+        },
       };
 
-      var home = {
-        owner: "Benjamin",
-        shippingAddress: { street: "534 Brooklyn Ave" },
-        mailingAddress: address,
-      };
+      var aNullExample = null;
 
-      var addressCopy = { ...address };
-      var homeCopy = { ...home };
+      var leftAlone;
 
-      address.state = "VA";
-
-      console.log({ addressCopy });
-      console.log(home);
-      home.shippingAddress = {street: "29 Jefferson"};
-      console.log(homeCopy);
+      console.log({ debt });
+      console.log({ isTeamMember });
+      console.log(anObject.method());
+      console.log(anObject.hello);
+      console.log(anObject.goodbye);
+      console.log(anObject.method());
+      console.log({ age });
+      console.log({ ageYear });
     </script>
     <!-- 🛑 Do Not Write Any Code Below here -->
   </body>
