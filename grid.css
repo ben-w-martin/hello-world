@@ -52,6 +52,24 @@ a:hover {
   color: greenyellow;
 }
 
-img {
-  max-width: 500px;
+.card {
+  width: 500px;
+  height: 500px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.warning-text {
+  color: darkorange;
+}
+
+.error-text {
+  color: red;
+}
+
+success-text {
+  color: greenyellow;
 }
